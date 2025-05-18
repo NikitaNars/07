@@ -17,15 +17,15 @@
         <ScrollViewer Grid.Column="0">
             
             <StackPanel >
-                <StackPanel Margin="5,5,0,0"  Grid.Column="0" HorizontalAlignment="Center" >
+                <Viewbox Margin="5,5,0,0"  Grid.Column="0" HorizontalAlignment="Center" >
                     <TextBlock FontSize="20" Foreground="DarkGray" FontFamily="Impact">Наши лучшие работы</TextBlock>
-                </StackPanel>
+                </Viewbox>
 
-                <Image Margin="10" Source="C:\Users\Nikita\source\repos\07\07\Image/unnamed.jpg"></Image>
+                <Image Margin="10" Source="C:\Users\Nikita\source\repos\07\07\Image/unnamed.jpg" MaxHeight="150"></Image>
                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" FontFamily="Impact">Антон</TextBlock>
-                <Image Margin="10" Source="C:\Users\Nikita\source\repos\07\07\Image/unnamed.jpg"></Image>
+                <Image Margin="10" Source="C:\Users\Nikita\source\repos\07\07\Image/unnamed.jpg" MaxHeight="150"></Image>
                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16"  FontFamily="Impact">Антон</TextBlock>
-                <Image Margin="10" Source="C:\Users\Nikita\source\repos\07\07\Image/unnamed.jpg"></Image>
+                <Image Margin="10" Source="C:\Users\Nikita\source\repos\07\07\Image/unnamed.jpg" MaxHeight="150"></Image>
                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16"  FontFamily="Impact">Антон</TextBlock>
             </StackPanel>
         </ScrollViewer>
@@ -66,12 +66,12 @@
             </TabItem>
             <TabItem Header="Расписание">каккак</TabItem>
         </TabControl>
-        <StackPanel Grid.Column="2">
+        <Viewbox Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Top">
             <Calendar>
                 <Calendar.BlackoutDates>
                     <CalendarDateRange Start="5/1/2025" End="5/20/2025"></CalendarDateRange>
                 </Calendar.BlackoutDates>
             </Calendar>
-        </StackPanel>
+        </Viewbox>
     </Grid>
 </Window>
